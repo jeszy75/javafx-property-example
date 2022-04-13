@@ -16,7 +16,7 @@ public class CalculatorModel {
         result.bind(Bindings.add(number1, number2));
     }
 
-    public double getNumber1() {
+    public final double getNumber1() {
         return number1.get();
     }
 
@@ -24,11 +24,11 @@ public class CalculatorModel {
         return number1;
     }
 
-    public void setNumber1(double number1) {
+    public final void setNumber1(double number1) {
         this.number1.set(number1);
     }
 
-    public double getNumber2() {
+    public final double getNumber2() {
         return number2.get();
     }
 
@@ -36,11 +36,11 @@ public class CalculatorModel {
         return number2;
     }
 
-    public void setNumber2(double number2) {
+    public final void setNumber2(double number2) {
         this.number2.set(number2);
     }
 
-    public double getResult() {
+    public final double getResult() {
         return result.get();
     }
 
